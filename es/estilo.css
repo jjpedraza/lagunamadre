@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+/* Estilos para los Vinculos */
+
+body{
+	
+
+}
+
+p {
+	margin-left:10px; margin-right:10px;
+	margin-bottom:0px; margin-top:0px;
+	}
+
+
+
+a:link{ /* Todos los vinculos */
+border-bottom: 1px dotted #999;
+text-decoration: none;
+color:#999;
+}
+a:visited { /* Vinculo visitado */
+border-bottom: 1px dotted #999;
+color:#999;
+text-decoration: none;
+}
+
+A:hover {  /* cuando pasa el raton encima */
+text-decoration: none;
+color:#F60;
+} 
+
+/* clases */
+.t1{font-family:Verdana, Geneva, sans-serif; font-size:20px; color:#666;}
+.t2{font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#369;}
+.t3{font-family:Verdana, Geneva, sans-serif; font-size:14px; color:#000;}
+.t4{font-family:Verdana, Geneva, sans-serif; font-size:12px; color:#CCC;}
+.tabla-contenido{
+	background-color:#FFF; border-style:inherit;
+	border-spacing:0;
+	font-family:Arial, Helvetica, sans-serif; font-size:12px;
+	border-collapse:collapse;
+	color:#000;	
+	}
+.tabla-contenido:hover{
+	background-color:#E9E9E9; border-style:inherit;	
+	border-spacing:0;
+	color:#FFF;	
+	}	
+
+
+.boton{
+	
+	}	
+.boton:hover{
+	opacity:5%;
+	src:url("default_r2_c3.jpg");
+
+	
+}
+/*para la tabla de la solicitud*/	
+
+
+
+
+.textbox
+  {
+  border: 1px solid #DBE1EB;
+  font-size: 12px;
+  font-family: Arial, Verdana;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  background: #FFFFFF;
+  background: linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+  color: #2E3133;
+  }
+  
+  .textbox:hover
+  {
+  /*color:#FFF;*/
+  background-color:#F90;  
+  border-color:#CCC;
+  }
